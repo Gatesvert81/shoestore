@@ -1,0 +1,32 @@
+
+#jumbo{
+    margin-top: 5rem;
+    text-align: center;
+}
+
+h1{
+    font-size: 63px;
+    color: white;
+}
+
+p{
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 10px;
+    color: white;
+}
+
+#button {
+    margin-top: 2em;
+    font-weight: 500;
+    font-size: large;
+    border-radius: 30px;
+    color: white;
+}
+
+#button:hover{
+    font-weight: 700;
+    transition: 80ms;
+    color: blue;
+}
+
