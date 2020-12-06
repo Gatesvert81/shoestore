@@ -7,16 +7,24 @@ const Navigation = (props) => {
     <div>
       <Nav id="nav" style={{ justifyContent: "center" }} >
         <NavItem>
-          <NavLink href="#">Home</NavLink>
+          <NavLink href="#">
+            <span>Home</span> 
+          </NavLink>
         </NavItem>
         <NavItem>
-          <NavLink href="#">Products</NavLink>
+          <NavLink href="#">
+          <span>Products</span> 
+          </NavLink>
         </NavItem>
         <NavItem>
-          <NavLink href="#">About Us</NavLink>
+          <NavLink href="#">
+          <span>About Us</span> 
+          </NavLink>
         </NavItem>
         <NavItem>
-          <NavLink href="#">Contact Us</NavLink>
+          <NavLink href="#">
+          <span>Contact Us</span> 
+          </NavLink>
         </NavItem>
       </Nav>
     </div>
